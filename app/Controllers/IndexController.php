@@ -8,7 +8,7 @@ use \App\Models\User;
 class IndexController extends Controller
 {
     public function index(){
-        $user = $_SESSION['user'];
+        /*$user = $_SESSION['user'];
 
         $stmt = User::prepare("SELECT * FROM users WHERE user = ?");
         $stmt->execute([$user]);
@@ -27,6 +27,8 @@ class IndexController extends Controller
         }
 
         $this->view('index', ['user' => $user, 'data' => $data]);
+         */
+        $this->view('home');
     }
 
     public function _404($params){

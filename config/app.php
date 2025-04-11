@@ -1,7 +1,7 @@
 <?php
 
 return [
-    'name'  => 'befree_online',
-    'url'   => 'http://localhost/befree_online',
+    'name'  => 'framework',
+    'url'   => 'http://localhost/framework',
     'debug' => true,
 ];

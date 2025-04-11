@@ -1,7 +1,7 @@
 <?php
 
 return [
-    'db' => 'mysql', 
+    'db' => 'sqlite3', 
 
     'mysql' => [
         'host'    => 'localhost',
